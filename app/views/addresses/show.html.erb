@@ -1,0 +1,12 @@
+<%= link_to "← All addresses", user_addresses_path(@user) %>
+<div class="page-heading">
+  <div><h1>Address details</h1><p>For <%= @user.name %></p></div>
+  <div class="actions">
+    <%= link_to "Edit address", edit_user_address_path(@user, @address), class: "button secondary" %>
+    <%= button_to "Delete address", user_address_path(@user, @address), method: :delete, class: "danger", form: { data: { turbo_confirm: "Delete this address?" } } %>
+  </div>
+</div>
+<section class="panel"><dl>
+  <dt>Street</dt><dd><%=  @address.street %></dd>
+  <dt>City</dt><dd><%=  @address.city %></dd>
+</dl></section>

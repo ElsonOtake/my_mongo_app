@@ -1,0 +1,12 @@
+<%= link_to "← All posts", user_posts_path(@user) %>
+<div class="page-heading">
+  <div><h1>Post details</h1><p>For <%= @user.name %></p></div>
+  <div class="actions">
+    <%= link_to "Edit post", edit_user_post_path(@user, @post), class: "button secondary" %>
+    <%= button_to "Delete post", user_post_path(@user, @post), method: :delete, class: "danger", form: { data: { turbo_confirm: "Delete this post?" } } %>
+  </div>
+</div>
+<section class="panel"><dl>
+  <dt>Title</dt><dd><%=  @post.title %></dd>
+  <dt>Content</dt><dd><%= simple_format @post.content %></dd>
+</dl></section>

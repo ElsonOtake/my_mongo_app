@@ -1,0 +1,6 @@
+<%= form_with model: [user, post] do |form| %>
+  <%= render "shared/errors", record: post %>
+  <div class="field"><%= form.label :title %><%= form.text_field :title %></div>
+  <div class="field"><%= form.label :content %><%= form.text_area :content %></div>
+  <div class="actions"><%= form.submit %><%= link_to "Cancel", user_posts_path(user) %></div>
+<% end %>

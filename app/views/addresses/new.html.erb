@@ -1,0 +1,4 @@
+<%= link_to "← Address list", user_addresses_path(@user) %>
+<h1>New address</h1>
+<p>For <%= @user.name %></p>
+<div class="panel form-panel"><%= render "form", user: @user, address: @address %></div>

@@ -1,0 +1,6 @@
+<%= form_with model: [user, address] do |form| %>
+  <%= render "shared/errors", record: address %>
+  <div class="field"><%= form.label :street %><%= form.text_field :street %></div>
+  <div class="field"><%= form.label :city %><%= form.text_field :city %></div>
+  <div class="actions"><%= form.submit %><%= link_to "Cancel", user_addresses_path(user) %></div>
+<% end %>

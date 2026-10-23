@@ -1,39 +1,62 @@
 class UsersController < ApplicationController
-  skip_forgery_protection
+  skip_forgery_protection if: -> { request.format.json? }
 
-  before_action :set_user, only: %i[show update destroy]
+  before_action :set_user, only: %i[show edit update destroy]
 
   def index
-    render json: User.all
+    @users = User.all
+    respond_to do |format|
+      format.html
+      format.json { render json: @users }
+    end
   end
 
   def show
-    render json: @user
+    respond_to do |format|
+      format.html
+      format.json { render json: @user }
+    end
+  end
+
+  def new
+    @user = User.new
+  end
+
+  def edit
   end
 
   def create
-    user = User.new(user_params)
+    @user = User.new(user_params)
 
-    if user.save
-      render json: user, status: :created
-    else
-      render json: { errors: user.errors.full_messages },
-             status: :unprocessable_entity
+    respond_to do |format|
+      if @user.save
+        format.html { redirect_to @user, notice: "User created successfully.", status: :see_other }
+        format.json { render json: @user, status: :created }
+      else
+        format.html { render :new, status: :unprocessable_entity }
+        format.json { render json: { errors: @user.errors.full_messages }, status: :unprocessable_entity }
+      end
     end
   end
 
   def update
-    if @user.update(user_params)
-      render json: @user
-    else
-      render json: { errors: @user.errors.full_messages },
-             status: :unprocessable_entity
+    respond_to do |format|
+      if @user.update(user_params)
+        format.html { redirect_to @user, notice: "User updated successfully.", status: :see_other }
+        format.json { render json: @user }
+      else
+        format.html { render :edit, status: :unprocessable_entity }
+        format.json { render json: { errors: @user.errors.full_messages }, status: :unprocessable_entity }
+      end
     end
   end
 
   def destroy
     @user.destroy
-    head :no_content
+    respond_to do |format|
+      format.html { redirect_to users_path, notice: "User deleted successfully.", status: :see_other }
+      format.json { head :no_content }
+    end
   end
 
   private

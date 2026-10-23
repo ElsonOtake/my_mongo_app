@@ -1,0 +1,7 @@
+<%= form_with model: user do |form| %>
+  <%= render "shared/errors", record: user %>
+  <div class="field"><%= form.label :name %><%= form.text_field :name, required: true, autocomplete: "name" %></div>
+  <div class="field"><%= form.label :email %><%= form.email_field :email, required: true, autocomplete: "email" %></div>
+  <div class="field"><%= form.label :age %><%= form.number_field :age, step: 1 %></div>
+  <div class="actions"><%= form.submit %><%= link_to "Cancel", user.persisted? ? user_path(user) : users_path %></div>
+<% end %>

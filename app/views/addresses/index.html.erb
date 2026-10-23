@@ -1,0 +1,21 @@
+<%= link_to "← User details", user_path(@user) %>
+<div class="page-heading">
+  <div><h1>Addresses</h1><p>For <%= @user.name %></p></div>
+  <%= link_to "New address", new_user_address_path(@user), class: "button" %>
+</div>
+<% if @addresses.any? %>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Street</th><th>City</th><th>Actions</th></tr></thead>
+    <tbody>
+      <% @addresses.each do |record| %>
+        <tr><td><%= record.street %></td><td><%= record.city %></td><td><div class="actions">
+          <%= link_to "View", user_address_path(@user, record) %>
+          <%= link_to "Edit", edit_user_address_path(@user, record) %>
+          <%= button_to "Delete", user_address_path(@user, record), method: :delete, class: "danger", form: { data: { turbo_confirm: "Delete this address?" } } %>
+        </div></td></tr>
+      <% end %>
+    </tbody>
+  </table></div>
+<% else %>
+  <div class="panel"><p>No addresses yet.</p></div>
+<% end %>

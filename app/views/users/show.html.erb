@@ -1,0 +1,23 @@
+<%= link_to "← All users", users_path %>
+<div class="page-heading">
+  <h1><%= @user.name %></h1>
+  <div class="actions">
+    <%= link_to "Edit user", edit_user_path(@user), class: "button secondary" %>
+    <%= button_to "Delete user", @user, method: :delete, class: "danger", form: { data: { turbo_confirm: "Delete this user, all their posts, and all their addresses?" } } %>
+  </div>
+</div>
+<section class="panel" aria-label="User details">
+  <dl><dt>Email</dt><dd><%= @user.email %></dd><dt>Age</dt><dd><%= @user.age || "—" %></dd></dl>
+</section>
+<div class="detail-grid">
+  <section class="panel">
+    <h2>Posts</h2>
+    <p>Read and manage this user's posts.</p>
+    <div class="actions"><%= link_to "View posts", user_posts_path(@user) %><%= link_to "New post", new_user_post_path(@user), class: "button" %></div>
+  </section>
+  <section class="panel">
+    <h2>Addresses</h2>
+    <p>View and manage this user's addresses.</p>
+    <div class="actions"><%= link_to "View addresses", user_addresses_path(@user) %><%= link_to "New address", new_user_address_path(@user), class: "button" %></div>
+  </section>
+</div>
