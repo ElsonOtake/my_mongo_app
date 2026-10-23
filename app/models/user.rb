@@ -8,6 +8,8 @@ class User
 
   has_many :posts, dependent: :destroy
 
+  embeds_many :addresses
+
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true
 
