@@ -5,4 +5,6 @@ class Post
   field :content, type: String
 
   belongs_to :user
+
+  index({ user_id: 1 })
 end

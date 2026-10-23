@@ -87,6 +87,11 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Create MongoDB indexes
+        env:
+          RAILS_ENV: test
+        run: bin/rails db:mongoid:create_indexes
+
       - name: Run tests
         env:
           RAILS_ENV: test
