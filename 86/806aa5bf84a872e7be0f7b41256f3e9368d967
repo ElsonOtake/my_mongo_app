@@ -1,0 +1,164 @@
+.dockerignore
+  h_da978aeed56e72 1-45
+.gitattributes
+  h_da978aeed56e72 1-7
+.github/dependabot.yml
+  h_da978aeed56e72 1-12
+.github/workflows/ci.yml
+  h_da978aeed56e72 1-124
+.gitignore
+  h_da978aeed56e72 1-28
+.kamal/hooks/docker-setup.sample
+  h_da978aeed56e72 1-3
+.kamal/hooks/post-app-boot.sample
+  h_da978aeed56e72 1-3
+.kamal/hooks/post-deploy.sample
+  h_da978aeed56e72 1-14
+.kamal/hooks/post-proxy-reboot.sample
+  h_da978aeed56e72 1-3
+.kamal/hooks/pre-app-boot.sample
+  h_da978aeed56e72 1-3
+.kamal/hooks/pre-build.sample
+  h_da978aeed56e72 1-51
+.kamal/hooks/pre-connect.sample
+  h_da978aeed56e72 1-47
+.kamal/hooks/pre-deploy.sample
+  h_da978aeed56e72 1-122
+.kamal/hooks/pre-proxy-reboot.sample
+  h_da978aeed56e72 1-3
+.kamal/secrets
+  h_da978aeed56e72 1-20
+.rubocop.yml
+  h_da978aeed56e72 1-8
+.ruby-version
+  h_da978aeed56e72 1
+Dockerfile
+  h_da978aeed56e72 1-77
+Gemfile
+  h_da978aeed56e72 1-58
+Gemfile.lock
+  h_da978aeed56e72 1-497
+README.md
+  h_da978aeed56e72 1-24
+Rakefile
+  h_da978aeed56e72 1-6
+app/assets/stylesheets/application.css
+  h_da978aeed56e72 1-10
+app/controllers/application_controller.rb
+  h_da978aeed56e72 1-7
+app/helpers/application_helper.rb
+  h_da978aeed56e72 1-2
+app/javascript/application.js
+  h_da978aeed56e72 1-3
+app/javascript/controllers/application.js
+  h_da978aeed56e72 1-9
+app/javascript/controllers/hello_controller.js
+  h_da978aeed56e72 1-7
+app/javascript/controllers/index.js
+  h_da978aeed56e72 1-4
+app/jobs/application_job.rb
+  h_da978aeed56e72 1-7
+app/mailers/application_mailer.rb
+  h_da978aeed56e72 1-4
+app/views/layouts/application.html.erb
+  h_da978aeed56e72 1-29
+app/views/layouts/mailer.html.erb
+  h_da978aeed56e72 1-13
+app/views/layouts/mailer.text.erb
+  h_da978aeed56e72 1
+app/views/pwa/manifest.json.erb
+  h_da978aeed56e72 1-22
+app/views/pwa/service-worker.js
+  h_da978aeed56e72 1-26
+bin/brakeman
+  h_da978aeed56e72 1-7
+bin/bundler-audit
+  h_da978aeed56e72 1-6
+bin/ci
+  h_da978aeed56e72 1-6
+bin/dev
+  h_da978aeed56e72 1-2
+bin/docker-entrypoint
+  h_da978aeed56e72 1-3
+bin/importmap
+  h_da978aeed56e72 1-4
+bin/kamal
+  h_da978aeed56e72 1-16
+bin/rails
+  h_da978aeed56e72 1-4
+bin/rake
+  h_da978aeed56e72 1-4
+bin/rubocop
+  h_da978aeed56e72 1-8
+bin/setup
+  h_da978aeed56e72 1-26
+bin/thrust
+  h_da978aeed56e72 1-5
+config.ru
+  h_da978aeed56e72 1-6
+config/application.rb
+  h_da978aeed56e72 1-39
+config/boot.rb
+  h_da978aeed56e72 1-4
+config/bundler-audit.yml
+  h_da978aeed56e72 1-5
+config/cable.yml
+  h_da978aeed56e72 1-10
+config/ci.rb
+  h_da978aeed56e72 1-23
+config/credentials.yml.enc
+  h_da978aeed56e72 1
+config/deploy.yml
+  h_da978aeed56e72 1-106
+config/environment.rb
+  h_da978aeed56e72 1-5
+config/environments/development.rb
+  h_da978aeed56e72 1-66
+config/environments/production.rb
+  h_da978aeed56e72 1-80
+config/environments/test.rb
+  h_da978aeed56e72 1-50
+config/importmap.rb
+  h_da978aeed56e72 1-7
+config/initializers/assets.rb
+  h_da978aeed56e72 1-7
+config/initializers/content_security_policy.rb
+  h_da978aeed56e72 1-29
+config/initializers/filter_parameter_logging.rb
+  h_da978aeed56e72 1-8
+config/initializers/inflections.rb
+  h_da978aeed56e72 1-16
+config/locales/en.yml
+  h_da978aeed56e72 1-31
+config/puma.rb
+  h_da978aeed56e72 1-39
+config/routes.rb
+  h_da978aeed56e72 1-14
+public/400.html
+  h_da978aeed56e72 1-135
+public/404.html
+  h_da978aeed56e72 1-135
+public/406-unsupported-browser.html
+  h_da978aeed56e72 1-135
+public/422.html
+  h_da978aeed56e72 1-135
+public/500.html
+  h_da978aeed56e72 1-135
+public/icon.svg
+  h_da978aeed56e72 1-3
+public/robots.txt
+  h_da978aeed56e72 1
+test/test_helper.rb
+  h_da978aeed56e72 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "86806aa5bf84a872e7be0f7b41256f3e9368d967",
+  "prompts": {},
+  "humans": {
+    "h_da978aeed56e72": {
+      "author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
