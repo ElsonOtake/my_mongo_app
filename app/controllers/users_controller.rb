@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  skip_forgery_protection
+
   before_action :set_user, only: %i[show update destroy]
 
   def index
