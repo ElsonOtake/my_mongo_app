@@ -1,0 +1,16 @@
+config/mongoid.yml
+  h_da978aeed56e72 1-416
+config/initializers/mongoid.rb
+  h_da978aeed56e72 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "18c3e326016f5ce371ba0d558066974b4418b0cf",
+  "prompts": {},
+  "humans": {
+    "h_da978aeed56e72": {
+      "author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
