@@ -1,0 +1,19 @@
+.github/workflows/ci.yml
+  s_dfd69ac626bb62::t_b1d160996f6614 71-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fdab83a3bb7c6c4efc86d2e56217c0f955f40976",
+  "prompts": {},
+  "sessions": {
+    "s_dfd69ac626bb62": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16919-536a-7291-bf81-1c1f2808104c",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
