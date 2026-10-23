@@ -1,0 +1,14 @@
+.github/workflows/ci.yml
+  h_da978aeed56e72 56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "020540cdb2a7e12cf94d6232f5ec3a20f86e1644",
+  "prompts": {},
+  "humans": {
+    "h_da978aeed56e72": {
+      "author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
