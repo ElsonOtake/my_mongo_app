@@ -1,0 +1,16 @@
+app/models/post.rb
+  h_da978aeed56e72 8-9
+.github/workflows/ci.yml
+  h_da978aeed56e72 90-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c55e5c334e87d916e68e93b92d086d33a2f62850",
+  "prompts": {},
+  "humans": {
+    "h_da978aeed56e72": {
+      "author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
