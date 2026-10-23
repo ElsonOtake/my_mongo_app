@@ -1,0 +1,19 @@
+README.md
+  s_dfd69ac626bb62::t_eba0003a5e5d93 1,3-4,6,8-12,14-15,17,19-20,22,24-29,31-32,34-35,37-163
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2c3bc1efba999c8c4c9b6bd3c022d0927bf95231",
+  "prompts": {},
+  "sessions": {
+    "s_dfd69ac626bb62": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16919-536a-7291-bf81-1c1f2808104c",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
