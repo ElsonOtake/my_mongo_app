@@ -1,0 +1,69 @@
+app/controllers/users_controller.rb
+  s_dfd69ac626bb62::t_e1743357f4eb86 2,4,7-11,15-25,29,31-38,43-50,56-59
+app/controllers/application_controller.rb
+  s_dfd69ac626bb62::t_e1743357f4eb86 7-13
+app/views/addresses/index.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-21
+app/views/posts/new.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-4
+app/views/users/_form.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-7
+app/views/users/edit.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-2
+app/views/users/show.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-23
+app/views/posts/_form.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-6
+config/routes.rb
+  s_dfd69ac626bb62::t_e1743357f4eb86 13-17
+app/views/addresses/_form.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-6
+app/views/addresses/new.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-4
+app/views/posts/show.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-12
+app/views/posts/edit.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-4
+app/views/users/index.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-24
+app/views/users/new.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-2
+app/controllers/posts_controller.rb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-55
+app/controllers/addresses_controller.rb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-55
+app/views/shared/_errors.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-10
+app/views/addresses/show.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-12
+app/views/posts/index.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-21
+app/views/layouts/application.html.erb
+  s_dfd69ac626bb62::t_e1743357f4eb86 27-36
+app/views/addresses/edit.html.erb
+  s_dfd69ac626bb62::t_e01bd583c2eebe 1-4
+app/assets/stylesheets/application.css
+  s_dfd69ac626bb62::t_1851e0771c6be5 11-52
+spec/requests/addresses_spec.rb
+  s_dfd69ac626bb62::t_1ff2258857f83a 1-49
+spec/requests/posts_spec.rb
+  s_dfd69ac626bb62::t_029eb8cde4b521 1-49
+spec/requests/user_management_spec.rb
+  s_dfd69ac626bb62::t_12c5b889f3c953 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3c62078b1fd88feb02fb1f3826d9d1160afcdbfb",
+  "prompts": {},
+  "sessions": {
+    "s_dfd69ac626bb62": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16919-536a-7291-bf81-1c1f2808104c",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
