@@ -6,6 +6,8 @@ class User
   field :email, type: String
   field :age, type: Integer
 
+  has_many :posts, dependent: :destroy
+
   validates :name, presence: true
   validates :email, presence: true, uniqueness: true
 
