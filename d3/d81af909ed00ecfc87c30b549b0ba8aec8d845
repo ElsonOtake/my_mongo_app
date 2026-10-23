@@ -1,0 +1,20 @@
+app/models/user.rb
+  h_da978aeed56e72 11-12
+app/models/address.rb
+  h_da978aeed56e72 1-8
+test/fixtures/addresses.yml
+  h_da978aeed56e72 1-11
+test/models/address_test.rb
+  h_da978aeed56e72 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d3d81af909ed00ecfc87c30b549b0ba8aec8d845",
+  "prompts": {},
+  "humans": {
+    "h_da978aeed56e72": {
+      "author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
