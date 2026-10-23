@@ -1,0 +1,32 @@
+spec/rails_helper.rb
+  h_da978aeed56e72 1-65
+config/application.rb
+  h_da978aeed56e72 15,38-40
+config/ci.rb
+  h_da978aeed56e72 11,14
+.github/workflows/ci.yml
+  h_da978aeed56e72 91
+Gemfile
+  h_da978aeed56e72 49-50
+spec/models/user_spec.rb
+  h_da978aeed56e72 1-19
+spec/requests/users_spec.rb
+  h_da978aeed56e72 1-25
+.rspec
+  h_da978aeed56e72 1
+Gemfile.lock
+  h_da978aeed56e72 110,274-290,390,430,497-501
+spec/spec_helper.rb
+  h_da978aeed56e72 1-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1f066f82e3a2e1ee7de628a96ebfe1ed4cc39e0c",
+  "prompts": {},
+  "humans": {
+    "h_da978aeed56e72": {
+      "author": "Elson Otake <elsonotake@yahoo.com.br>"
+    }
+  }
+}
